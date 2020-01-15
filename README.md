@@ -1,5 +1,5 @@
 # PiBase
-Personal Start Page for the Raspberry Pi
+PiBase is a personal start page designed to be hosted on the Raspberry Pi.
 
 # Features
 ## Traffic & Weather Overview 
