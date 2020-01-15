@@ -12,7 +12,7 @@ Personal Start Page for the Raspberry Pi
 ## Personalized Newsfeed
 
 ## Weather Forecast
-
+![](weatherForecast.png)
 
 # Prerequisites
 ## 1. Google Maps API Key 
