@@ -2,7 +2,7 @@
 PiBase is a personal start page designed to be hosted on the Raspberry Pi.
 
 # Features
-## Daily Commute Traffic & Weather Overview 
+## Traffic & Weather Overview 
 ![](commuteOverview.png)
 
 ## Display Themes
