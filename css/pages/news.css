@@ -1,0 +1,26 @@
+.headlinesContainer {
+    height: 580px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 0.5rem;
+}
+.redditTickerContainer, .twitterTickerContainer {
+    overflow-y: hidden;
+    overflow-x: scroll;
+    width: 100%;
+    padding: 0;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    background-color: #fff !important;
+}
+.redditTickerWrapper, .twitterTickerWrapper {
+    width: 2000px;
+    font-size: 32px;
+    color: #000;
+}
+.tickerContent__loadingText {
+    margin-left: 20vw;
+}

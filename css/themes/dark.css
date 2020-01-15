@@ -1,0 +1,39 @@
+body {
+    background-color: #3b3b3b;
+    color: #efefef;
+}
+.card {
+    background-color: #333333 !important;
+}
+
+.headlinesContainer {
+    height: 580px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 0.5rem;
+}
+.redditTickerContainer, .twitterTickerContainer {
+    overflow-y: hidden;
+    overflow-x: scroll;
+    width: 100%;
+    padding: 0;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    background-color: #333 !important;
+}
+.redditTickerWrapper, .twitterTickerWrapper {
+    width: 2000px;
+    font-size: 32px;
+    color: #efefef;
+}
+.tickerContent__loadingText {
+    margin-left: 20vw;
+}
+
+.form-control {
+    color: #4e4e4e;
+    background-color: #3b3b3b;
+}
