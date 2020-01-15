@@ -4,9 +4,13 @@ Personal Start Page for the Raspberry Pi
 # Features
 ## Traffic & Weather Overview 
 
+## Themes
+![](https://i.imgur.com/O6zeMuL.gif)
+
+
 ## Personalized Newsfeed
 
-## Themes
+## Weather Forecast
 
 
 # Prerequisites
