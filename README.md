@@ -1,6 +1,13 @@
 # PiBase
 Personal Start Page for the Raspberry Pi
 
+# Features
+## Traffic & Weather Overview 
+
+## Personalized Newsfeed
+
+## Themes
+
 
 # Prerequisites
 ## 1. Google Maps API Key 
