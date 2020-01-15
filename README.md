@@ -10,6 +10,7 @@ Personal Start Page for the Raspberry Pi
 
 
 ## Personalized Newsfeed
+![](newsfeed.png)
 
 ## Weather Forecast
 ![](weatherForecast.png)
