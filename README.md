@@ -52,4 +52,13 @@ PiBase is a personal news hub and start page designed to be hosted on the Raspbe
 
 &nbsp;&nbsp;&nbsp;&nbsp; **b.)** Enter your API Keys and Access Tokens for each service and click 'Save'
 
+## 5. (Optional) Accessing PiBase from other devices on your network
+&nbsp;&nbsp;&nbsp;&nbsp; **a.)** In your Raspberry Pi's terminal, run the command `ifconfig`
+
+&nbsp;&nbsp;&nbsp;&nbsp; **b.)** We're looking for the first IP address shown in the last block of code. In this case, it's `192.168.1.133`. This is the IP address you'll want to hit from other devices on your network in order to access your Pi's web server.
+![](ifconfig.png)
+
+&nbsp;&nbsp;&nbsp;&nbsp; **c.)** With another device on your network, type `[your Raspberry Pi's IP address]/pibase` into the web browser. And voila! You now have have a sweet personal dashboard and news hub accessible anywhere on your WiFi network.
+
+
 
