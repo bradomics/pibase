@@ -1,5 +1,5 @@
     <?php
-    if($_SERVER['PHP_SELF'] !== 'settings.php' && $db->getScreenChangeInterval() > 0){
+    if(strpos($_SERVER['PHP_SELF'],'settings.php') === false && $db->getScreenChangeInterval() > 0){
         ?>
         <script>
         setTimeout(function(){ 
