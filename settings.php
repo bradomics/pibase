@@ -196,8 +196,8 @@
                     <option value="hacker" <?php echo $db->getAppTheme() === 'hacker' ? 'selected': ''; ?>>Hacker</option>
                     <option value="energy" <?php echo $db->getAppTheme() === 'energy' ? 'selected': ''; ?>>Energy</option>
                   </select>
-                  <label class="mb-0">Background Image:</label>
-                  <input type="text" class="form-control mb-3" name="backgroundImage" placeholder="Photo.png" value="<?php echo $db->getBackgroundImage(); ?>"/>
+                <label class="mb-0">Screen change interval (minutes):</label>
+                  <input type="number" class="form-control mb-3" name="screenChangeInterval" placeholder="Set to 0 to disable automatic screen change" value="<?php echo $db->getScreenChangeInterval(); ?>"/>                
                 </div><!-- card-body -->
               </div><!-- card -->
               <button type="button" class="btn btn-primary js-saveAppSettings mt-3">Save</button>
