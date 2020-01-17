@@ -55,6 +55,15 @@ class db {
         return $backgroundImage;
     }
 
+    public function getScreenChangeInterval() {
+        $stmt = "SELECT screenChangeInterval FROM appSettings LIMIT 1";
+        $query = mysqli_query($this->conn, $stmt);
+        while($row = mysqli_fetch_assoc($query)){
+            $screenChangeInterval =  $row['screenChangeInterval'];
+        }
+        return $screenChangeInterval;
+    }
+
     public function getCNNSource() {
         $stmt = "SELECT sourceCNN FROM newsSettings LIMIT 1";
         $query = mysqli_query($this->conn, $stmt);
@@ -304,6 +313,7 @@ class db {
     public function updateAppSettings($appSettings) {
         $stmt = "UPDATE appSettings SET appName = '" . $appSettings['appName'] . "', ";
         $stmt .= "theme = '" . $appSettings['theme'] . "', ";
+        $stmt .= "screenChangeInterval = '" . $appSettings['screenChangeInterval'] . "', ";
         $stmt .= "backgroundImage = '" . $appSettings['backgroundImage'] . "'";
         $query = mysqli_query($this->conn, $stmt);
         return $query;

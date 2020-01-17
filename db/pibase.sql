@@ -55,15 +55,16 @@ CREATE TABLE `appSettings` (
   `appSettingId` int(11) NOT NULL,
   `appName` varchar(100) NOT NULL DEFAULT 'PiBase',
   `theme` varchar(40) NOT NULL DEFAULT 'light',
-  `backgroundImage` varchar(100) NOT NULL DEFAULT 'backgroundImage'
+  `backgroundImage` varchar(100) NOT NULL DEFAULT 'backgroundImage',
+  `screenChangeInterval` varchar(10) NOT NULL DEFAULT '0'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `appSettings`
 --
 
-INSERT INTO `appSettings` (`appSettingId`, `appName`, `theme`, `backgroundImage`) VALUES
-(1, 'PiBase', 'light', '');
+INSERT INTO `appSettings` (`appSettingId`, `appName`, `theme`, `backgroundImage` `screenChangeInterval`) VALUES
+(1, 'PiBase', 'light', '', '0');
 
 -- --------------------------------------------------------
 
